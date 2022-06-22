@@ -29,19 +29,63 @@ function CreateBook() {
 	doc.addFileToVFS('Roboto-normal.ttf', font);
 	doc.addFont('Roboto-normal.ttf', 'Roboto', 'normal');
 	doc.setFont('Roboto', 'normal');
+	doc.setFontSize(8);
+
+	// // PAGE 1	
+	// doc.addImage(imgData, 'PNG', 0, 0, 612, 792);
+
+
+	// // PAGE 2
+	// doc.addPage();	
+	// doc.addImage(imgData_1, 'PNG', 0, 0, 612, 792);
+
+
+	// // PAGE 3
+	// doc.addPage();	
+	// doc.addImage(imgData_2, 'PNG', 0, 0, 612, 792);
 
 
 
-	// PAGE 4	
+	// PAGE 4
+	doc.addPage();	
 	doc.addImage(imgData_3, 'PNG', 0, 0, 612, 792);
 	
 	var P4_Networking_1 = player.GetVar("P4_Networking_1");
-	P4_Networking_1 = doc.splitTextToSize(P4_Networking_1, 530);
-	doc.text(170, 71, P4_Networking_1);
+	P4_Networking_1 = doc.splitTextToSize(P4_Networking_1, 400);
+	doc.text(170, 80, P4_Networking_1);
+	
 
 	var P4_Networking_2_1 = player.GetVar("P4_Networking_2_1");
-	P4_Networking_2_1 = doc.splitTextToSize(P4_Networking_2_1, 530);
-	doc.text(170, 650, P4_Networking_2_1);
+	P4_Networking_2_1 = doc.splitTextToSize(P4_Networking_2_1, 200);
+	doc.text(170, 140, P4_Networking_2_1);
+
+	
+	var P4_Networking_2_2 = player.GetVar("P4_Networking_2_2");
+	P4_Networking_2_2 = doc.splitTextToSize(P4_Networking_2_2, 180);
+	doc.text(391, 140, P4_Networking_2_2);
+
+
+	var P4_Networking_3 = player.GetVar("P4_Networking_3");
+	P4_Networking_3 = doc.splitTextToSize(P4_Networking_3, 510);
+	doc.text(44, 290, P4_Networking_3);
+
+	var P4_Networking_4 = player.GetVar("P4_Networking_4");
+	P4_Networking_4 = doc.splitTextToSize(P4_Networking_4, 295);
+	doc.text(258, 320, P4_Networking_4);
+
+	// PAGE 4 part 2
+
+	var P4_Preparation_1 = player.GetVar("P4_Preparation_1");
+	P4_Preparation_1 = doc.splitTextToSize(P4_Preparation_1, 400);
+	doc.text(170, 443, P4_Preparation_1);
+
+	var P4_Preparation_2 = player.GetVar("P4_Preparation_2");
+	P4_Preparation_2 = doc.splitTextToSize(P4_Preparation_2, 400);
+	doc.text(170, 495, P4_Preparation_2);
+
+	var P4_Preparation_3 = player.GetVar("P4_Preparation_3");
+	P4_Preparation_3 = doc.splitTextToSize(P4_Preparation_3, 400);
+	doc.text(170, 613, P4_Preparation_3);
 
 
 	// var TextEntry10 = player.GetVar("TextEntry10");
