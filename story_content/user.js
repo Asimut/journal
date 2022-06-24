@@ -2,23 +2,20 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "5tgbr0EbOoa":
+      case "5j9AboKWqhh":
         Script1();
         break;
-      case "6B0yiei4ZKG":
+      case "5XHuRLF5vl2":
         Script2();
         break;
-      case "6OFIYPhbBk9":
+      case "5eTBuRSflV7":
         Script3();
         break;
-      case "5sTDCOZxbYN":
+      case "5uv9L6hqOKL":
         Script4();
         break;
-      case "648wlEORuxV":
+      case "5oOMNHpy5Ev":
         Script5();
-        break;
-      case "6Ew3kGORlDk":
-        Script6();
         break;
   }
 }
@@ -30,21 +27,7 @@ function Script1()
 
 function Script2()
 {
-  var player = GetPlayer();
-
-var area = document.querySelector('textarea');
-
-area.addEventListener('input', restrictNumber);
-
-function restrictNumber (e) {  
-  var newValue = this.value.substr(0, 230).trim();
-  //console.log(newValue);
-  this.value = newValue;
-  
-  var qty = this.value.length;
-  
-  player.SetVar("text_count_2_1",qty);
-}
+  window.frames[0].frameElement.contentWindow.CreateBookView();
 }
 
 function Script3()
@@ -58,11 +41,6 @@ function Script4()
 }
 
 function Script5()
-{
-  window.frames[0].frameElement.contentWindow.CreateBookView();
-}
-
-function Script6()
 {
   window.frames[0].frameElement.contentWindow.CreateBookView();
 }
