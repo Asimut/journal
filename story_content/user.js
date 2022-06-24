@@ -2,16 +2,33 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "66aR3XvIqR8":
+      case "5tgbr0EbOoa":
         Script1();
         break;
-      case "657CDmJG28N":
+      case "6B0yiei4ZKG":
         Script2();
+        break;
+      case "6OFIYPhbBk9":
+        Script3();
+        break;
+      case "5sTDCOZxbYN":
+        Script4();
+        break;
+      case "648wlEORuxV":
+        Script5();
+        break;
+      case "6Ew3kGORlDk":
+        Script6();
         break;
   }
 }
 
 function Script1()
+{
+  window.frames[0].frameElement.contentWindow.CreateBookView();
+}
+
+function Script2()
 {
   var player = GetPlayer();
 
@@ -30,8 +47,23 @@ function restrictNumber (e) {
 }
 }
 
-function Script2()
+function Script3()
 {
-  window.frames[0].frameElement.contentWindow.CreateBook();
+  window.frames[0].frameElement.contentWindow.CreateBookView();
+}
+
+function Script4()
+{
+  window.frames[0].frameElement.contentWindow.CreateBookView();
+}
+
+function Script5()
+{
+  window.frames[0].frameElement.contentWindow.CreateBookView();
+}
+
+function Script6()
+{
+  window.frames[0].frameElement.contentWindow.CreateBookView();
 }
 
