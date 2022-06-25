@@ -34,26 +34,106 @@ window.CreateBookView = function() {
 	doc.addFileToVFS('Roboto-normal.ttf', font);
 	doc.addFont('Roboto-normal.ttf', 'Roboto', 'normal');
 	doc.setFont('Roboto', 'normal');
-	doc.setFontSize(8);
+	// doc.setFontSize(8);
 
-	// // PAGE 1	
+	// PAGE 1	
 	doc.addImage(imgData, 'PNG', 0, 0, 612, 792);
 
 
-	// // PAGE 2
+	// PAGE 2
 	doc.addPage();	
 	doc.addImage(imgData_1, 'PNG', 0, 0, 612, 792);
 
 
-	// // PAGE 3
+	// PAGE 3
 	doc.addPage();	
 	doc.addImage(imgData_2, 'PNG', 0, 0, 612, 792);
+	doc.setFontSize(12);
+	
 
+	// COLUM 1
+
+	var Num_1 = player.GetVar("Num_1");
+	Num_1 = doc.splitTextToSize(Num_1, 400);
+	doc.text(360, 225, Num_1);
+	
+
+	var Num_2 = player.GetVar("Num_2");
+	Num_2 = doc.splitTextToSize(Num_2, 400);
+	doc.text(360, 282, Num_2);
+
+	var Num_3 = player.GetVar("Num_3");
+	Num_3 = doc.splitTextToSize(Num_3, 400);
+	doc.text(360, 338, Num_3);
+
+	var Num_4 = player.GetVar("Num_4");
+	Num_4 = doc.splitTextToSize(Num_4, 400);
+	doc.text(360, 395, Num_4);
+
+	var Num_5 = player.GetVar("Num_5");
+	Num_5 = doc.splitTextToSize(Num_5, 400);
+	doc.text(360, 451, Num_5);
+
+	var Num_6 = player.GetVar("Num_6");
+	Num_6 = doc.splitTextToSize(Num_6, 400);
+	doc.text(360, 510, Num_6);
+
+	var Num_7 = player.GetVar("Num_7");
+	Num_7 = doc.splitTextToSize(Num_7, 400);
+	doc.text(360, 566, Num_7);
+
+	var Num_8 = player.GetVar("Num_8");
+	Num_8 = doc.splitTextToSize(Num_8, 400);
+	doc.text(360, 624, Num_8);
+
+	var Num_9 = player.GetVar("Num_9");
+	Num_9 = doc.splitTextToSize(Num_9, 400);
+	doc.text(360, 681, Num_9);
+
+	// COLUM 2
+
+	var Rev_1 = player.GetVar("Rev_1");
+	Rev_1 = doc.splitTextToSize(Rev_1, 400);
+	doc.text(477, 225, Rev_1);
+
+	var Rev_2 = player.GetVar("Rev_2");
+	Rev_2 = doc.splitTextToSize(Rev_2, 400);
+	doc.text(477, 282, Rev_2);
+
+	var Rev_3 = player.GetVar("Rev_3");
+	Rev_3 = doc.splitTextToSize(Rev_3, 400);
+	doc.text(477, 338, Rev_3);
+
+	var Rev_4 = player.GetVar("Rev_4");
+	Rev_4 = doc.splitTextToSize(Rev_4, 400);
+	doc.text(477, 395, Rev_4);
+
+	var Rev_5 = player.GetVar("Rev_5");
+	Rev_5 = doc.splitTextToSize(Rev_5, 400);
+	doc.text(477, 451, Rev_5);
+
+	var Rev_6 = player.GetVar("Rev_6");
+	Rev_6 = doc.splitTextToSize(Rev_6, 400);
+	doc.text(477, 510, Rev_6);
+
+	var Rev_7 = player.GetVar("Rev_7");
+	Rev_7 = doc.splitTextToSize(Rev_7, 400);
+	doc.text(477, 566, Rev_7);
+
+	var Rev_8 = player.GetVar("Rev_8");
+	Rev_8 = doc.splitTextToSize(Rev_8, 400);
+	doc.text(477, 624, Rev_8);
+
+	var Rev_9 = player.GetVar("Rev_9");
+	Rev_9 = doc.splitTextToSize(Rev_9, 400);
+	doc.text(477, 681, Rev_9);
+	
 
 
 	// PAGE 4
 	doc.addPage();	
 	doc.addImage(imgData_3, 'PNG', 0, 0, 612, 792);
+	doc.setFontSize(8);
 	
 	var P4_Networking_1 = player.GetVar("P4_Networking_1");
 	P4_Networking_1 = doc.splitTextToSize(P4_Networking_1, 400);
@@ -90,7 +170,7 @@ window.CreateBookView = function() {
 
 	var P4_Preparation_3 = player.GetVar("P4_Preparation_3");
 	P4_Preparation_3 = doc.splitTextToSize(P4_Preparation_3, 400);
-	doc.text(170, 613, P4_Preparation_3);
+	doc.text(170, 617, P4_Preparation_3);
 
 
 	// var TextEntry10 = player.GetVar("TextEntry10");
