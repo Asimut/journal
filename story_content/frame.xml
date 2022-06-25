@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="npnxnanbnsnfns00000000111" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0x1DAA9A">
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns10111001111" textdirection="ltr" textengine="DirectWrite" device="false" fontscale="100" captionFontScale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="unified" themeAccentColor="0x1DAA9A">
   <layouts>
-    <layout name="npnxnanbsnfns10111001111" font="Open Sans" controllayout="npnxnanbsnfns10111001111" colorscheme="npnxnanbnsnfns00000000111" string_table="npnxnanbnsnfns00000000111" />
-    <layout name="pxabnsnfns10111001111" font="Open Sans" controllayout="pxabnsnfns10111001111" colorscheme="npnxnanbnsnfns00000000111" string_table="npnxnanbnsnfns00000000111" />
-    <layout name="npxnabnsnfns10111001111" font="Open Sans" controllayout="npxnabnsnfns10111001111" colorscheme="npnxnanbnsnfns00000000111" string_table="npnxnanbnsnfns00000000111" />
-    <layout name="npnxnanbnsnfns10111001111" font="Open Sans" controllayout="npnxnanbnsnfns10111001111" colorscheme="npnxnanbnsnfns00000000111" string_table="npnxnanbnsnfns00000000111" />
-    <layout name="pxabnsnfns10111001110" font="Open Sans" controllayout="pxabnsnfns10111001110" colorscheme="npnxnanbnsnfns00000000111" string_table="npnxnanbnsnfns00000000111" />
-    <layout name="npnxnanbnsnfns00000000111" font="Open Sans" controllayout="npnxnanbnsnfns00000000111" colorscheme="npnxnanbnsnfns00000000111" string_table="npnxnanbnsnfns00000000111" />
-    <layout name="pxabsnfns10111001111" font="Open Sans" controllayout="pxabsnfns10111001111" colorscheme="npnxnanbnsnfns00000000111" string_table="npnxnanbnsnfns00000000111" />
-    <layout name="npnxnanbnsnfns00001001111" font="Open Sans" controllayout="npnxnanbnsnfns00001001111" colorscheme="npnxnanbnsnfns00000000111" string_table="npnxnanbnsnfns00000000111" />
+    <layout name="npnxnanbsnfns10111001111" font="Open Sans" controllayout="npnxnanbsnfns10111001111" colorscheme="pxabnsnfns10111001111" string_table="pxabnsnfns10111001111" />
+    <layout name="pxabnsnfns10111001111" font="Open Sans" controllayout="pxabnsnfns10111001111" colorscheme="pxabnsnfns10111001111" string_table="pxabnsnfns10111001111" />
+    <layout name="npxnabnsnfns10111001111" font="Open Sans" controllayout="npxnabnsnfns10111001111" colorscheme="pxabnsnfns10111001111" string_table="pxabnsnfns10111001111" />
+    <layout name="npnxnanbnsnfns10111001111" font="Open Sans" controllayout="npnxnanbnsnfns10111001111" colorscheme="pxabnsnfns10111001111" string_table="pxabnsnfns10111001111" />
+    <layout name="pxabnsnfns10111001110" font="Open Sans" controllayout="pxabnsnfns10111001110" colorscheme="pxabnsnfns10111001111" string_table="pxabnsnfns10111001111" />
   </layouts>
   <control_options>
     <optiongroups>
@@ -16,7 +13,7 @@
         <options>
           <option name="title_enabled" value="false">
             <options>
-              <option name="title_text" value="AZ Buy and bill (above brand) V1.5 AFD" />
+              <option name="title_text" value=" AP Academy AAM Module" />
             </options>
           </option>
           <option name="logo_enabled" value="false">
@@ -84,6 +81,7 @@
             </options>
           </option>
           <option name="settings" value="true" />
+          <option name="fullScreenToggle" value="false" />
         </options>
       </optiongroup>
       <optiongroup name="bottombaroptions">
@@ -216,78 +214,9 @@
       </control>
       <control name="close_btn" enabled="false" />
     </control_layout>
-    <control_layout name="npnxnanbnsnfns00000000111">
-      <control name="volume" enabled="true" />
-      <control name="seekbar" enabled="false" />
-      <control name="replay" enabled="false" />
-      <control name="pauseplay" enabled="false" />
-      <control name="logo" enabled="false" />
-      <control name="previous" enabled="false" />
-      <control name="next" enabled="false" />
-      <control name="swipeleft" enabled="false" />
-      <control name="swiperight" enabled="false" />
-      <control name="submit" enabled="false" />
-      <control name="finish" enabled="false" />
-      <control name="submitall" enabled="false" />
-      <control name="resources" enabled="false" />
-      <control name="glossary" enabled="false" />
-      <control name="transcript" enabled="false" />
-      <control name="outline" enabled="false">
-        <controls>
-          <control name="search" enabled="true" />
-        </controls>
-      </control>
-      <control name="close_btn" enabled="true" />
-    </control_layout>
-    <control_layout name="pxabsnfns10111001111">
-      <control name="volume" enabled="true" />
-      <control name="seekbar" enabled="true" />
-      <control name="replay" enabled="true" />
-      <control name="pauseplay" enabled="true" />
-      <control name="logo" enabled="false" />
-      <control name="previous" enabled="true" />
-      <control name="next" enabled="true" />
-      <control name="swipeleft" enabled="true" />
-      <control name="swiperight" enabled="true" />
-      <control name="submit" enabled="true" />
-      <control name="finish" enabled="false" />
-      <control name="submitall" enabled="false" />
-      <control name="resources" enabled="false" />
-      <control name="glossary" enabled="false" />
-      <control name="transcript" enabled="true" />
-      <control name="outline" enabled="true">
-        <controls>
-          <control name="search" enabled="true" />
-        </controls>
-      </control>
-      <control name="close_btn" enabled="true" />
-    </control_layout>
-    <control_layout name="npnxnanbnsnfns00001001111">
-      <control name="volume" enabled="true" />
-      <control name="seekbar" enabled="false" />
-      <control name="replay" enabled="false" />
-      <control name="pauseplay" enabled="false" />
-      <control name="logo" enabled="false" />
-      <control name="previous" enabled="false" />
-      <control name="next" enabled="false" />
-      <control name="swipeleft" enabled="false" />
-      <control name="swiperight" enabled="false" />
-      <control name="submit" enabled="false" />
-      <control name="finish" enabled="false" />
-      <control name="submitall" enabled="false" />
-      <control name="resources" enabled="false" />
-      <control name="glossary" enabled="false" />
-      <control name="transcript" enabled="true" />
-      <control name="outline" enabled="true">
-        <controls>
-          <control name="search" enabled="true" />
-        </controls>
-      </control>
-      <control name="close_btn" enabled="true" />
-    </control_layout>
   </control_layouts>
   <colorschemes>
-    <colorscheme name="npnxnanbnsnfns00000000111">
+    <colorscheme name="pxabnsnfns10111001111">
       <color_group name="accessibility">
         <group_colors>
           <color name="focus_rect">
@@ -1465,7 +1394,7 @@
     </colorscheme>
   </colorschemes>
   <string_tables>
-    <string_table name="npnxnanbnsnfns00000000111">
+    <string_table name="pxabnsnfns10111001111">
       <string id="three_image_progress_audio">progress</string>
       <string id="three_image_audio">audio</string>
       <string id="three_image_camera_down">camera moved down</string>
@@ -1505,20 +1434,20 @@
       <string id="keyboardshortcuts_lower">Keyboard shortcuts</string>
       <string id="zoom_to_fit">Zoom to fit</string>
       <string id="modern_video_settings_close">close video settings</string>
-      <string id="acc_modern_video_fullscreen">fullscreen</string>
-      <string id="modern_video_playback_settings">playback settings</string>
-      <string id="modern_video_captions_off">off</string>
-      <string id="modern_video_captions_on">on</string>
-      <string id="modern_video_captions_label">captions</string>
+      <string id="acc_modern_video_fullscreen">full-screen video</string>
+      <string id="modern_video_playback_settings">Video Playback Settings</string>
+      <string id="modern_video_captions_off">Off</string>
+      <string id="modern_video_captions_on">On</string>
+      <string id="modern_video_captions_label">Captions</string>
       <string id="acc_modern_video_settings">video settings</string>
       <string id="acc_modern_video_mute">mute video</string>
       <string id="modern_video_normal_speed">Normal</string>
       <string id="acc_modern_video_pause">pause video</string>
-      <string id="acc_modern_video_pip">Picture-in-Picture</string>
+      <string id="acc_modern_video_pip">picture-in-picture</string>
       <string id="acc_modern_video_play">play video</string>
-      <string id="modern_video_playback_speed_title">Playback speed</string>
+      <string id="modern_video_playback_speed_title">Playback Speed</string>
       <string id="acc_modern_video_captions">video captions</string>
-      <string id="acc_modern_video_playback_speed">Playback speed</string>
+      <string id="acc_modern_video_playback_speed">playback speed</string>
       <string id="acc_modern_video_volume">video volume</string>
       <string id="acc_active">active</string>
       <string id="alt_key">Alt</string>
@@ -1628,582 +1557,28 @@
   <nav_data>
     <outline>
       <links>
-        <slidelink slideid="_player.5uRBbjGIcOZ" displaytext="AAM Workshop_V17_Final" expand="true" type="slide">
+        <slidelink slideid="_player.6bOEf1Dc0f0" displaytext=" AP Academy AAM Module" expand="true" type="slide">
           <links>
-            <slidelink slideid="_player.5uRBbjGIcOZ.6CJXT02KiPJ" displaytext="Advanced Account " expand="false" type="slide" />
-            <slidelink slideid="_player.5uRBbjGIcOZ.5hk8PfxhHMZ" displaytext="Navigation" expand="false" type="slide" />
-            <slidelink slideid="_player.5uRBbjGIcOZ.665PScQpY1z" displaytext="Learning Objectives" expand="false" type="slide" />
-            <slidelink slideid="_player.5uRBbjGIcOZ.6ee6Pacd5fE" displaytext="Workshop Facilitator Introductions" expand="false" type="slide" />
-            <slidelink slideid="_player.5uRBbjGIcOZ.6fm90BOzVVK" displaytext="Self-reflection" expand="false" type="slide" />
-            <slidelink slideid="_player.5uRBbjGIcOZ.61wENC5gASO" displaytext="Key Leadership, Technical and " expand="false" type="slide" />
-            <slidelink slideid="_player.5uRBbjGIcOZ.5vDSkKYwpJQ" displaytext="Networking, Preparation, Building Trust, Navigating the Account, and Inspiring Action" expand="false" type="slide" />
-            <slidelink slideid="_player.5uRBbjGIcOZ.64D0i2Vko5v" displaytext="Key Leadership, Technical and " expand="false" type="slide" />
-            <slidelink slideid="_player.5uRBbjGIcOZ.5yGmY8js4x5" displaytext="Key Leadership, Technical and " expand="false" type="slide" />
+            <slidelink slideid="_player.6bOEf1Dc0f0.6GdosnlZzkq" displaytext="Self-Assessment" expand="false" type="slide" />
+            <slidelink slideid="_player.6bOEf1Dc0f0.6ouVGjuf3X3" displaytext="Networking" expand="false" type="slide" />
+            <slidelink slideid="_player.6bOEf1Dc0f0.6mcXzPy5rbC" displaytext="Preparation" expand="false" type="slide" />
+            <slidelink slideid="_player.6bOEf1Dc0f0.6Q2rYrOa31Y" displaytext="Self-Assessment" expand="false" type="slide" />
           </links>
         </slidelink>
       </links>
     </outline>
     <search>
-      <slidetext slideid="5uRBbjGIcOZ.6CJXT02KiPJ" slidebank="false" type="slide">  v1.17 remove menu and stamp from final photo from articulate library (search: “pharmacy”)  advanced account management workshop start start start start start start  june 15, 2022</slidetext>
-      <slidetext slideid="5uRBbjGIcOZ.5hk8PfxhHMZ" slidebank="false" type="slide">select references for a list of references used in this module. select the prev or next buttons to move to the previous or next screen, or submit to enter a response. select the accessibility       icon to change the zoom mode, turn accessible text on or off, and toggle keyboard shortcuts.  use the controls along the bottom to pause, play, or restart the current slide.  drag the seekbar left or right to replay or fast forward to a specific point. this course contains audio. select the       icon to adjust the volume.     toggle the left panel open or closed with the         icon.  jump to any slide by selecting a link from the menu tab. read a transcript of the narration under the transcript tab.    ensure your audio is enabled on-screen instructions will help guide you hover over each icon to learn how to navigate through this module  the next prompt will activate once you complete all required content  make sure narration is complete, and, if there are circle indicators, they are all checked          hover over each icon and complete narration before continuing tap next &gt; to continue hover over each icon and complete narration before continuing                                                 navigation</slidetext>
-      <slidetext slideid="5uRBbjGIcOZ.665PScQpY1z" slidebank="false" type="slide">learning objectives after completing this workshop, participants will be able to: define key competencies that are required in advanced account management provide examples of each competency being applied to a situation use 3 enhanced strategies from the workshop to drive positive outcomes with accounts workshop agenda introduction and self-assessment (10 min) level-setting exercise (40 min) scenario exercise ‒ groups of 3-4 (30 min) summary, key takeaways (10 min) complete narration before continuing tap next &gt; to continue complete narration before continuing</slidetext>
-      <slidetext slideid="5uRBbjGIcOZ.6ee6Pacd5fE" slidebank="false" type="slide"> workshop facilitator introductions amy vercellin ryan vogel  complete narration before continuing tap next &gt; to continue complete narration before continuing</slidetext>
-      <slidetext slideid="5uRBbjGIcOZ.6fm90BOzVVK" slidebank="false" type="slide">reflect: this workshop will provide you with opportunities for reflection and self-assessment of your proficiency, relative to key competencies. review: begin by reviewing the self-assessment form. you will see 9 key competencies that are highly relevant for advanced account management. rank: rank these competencies by how proficient you are, from your strongest to those that could use the most improvement. reflect: this workshop will provide you with opportunities for reflection and self-assessment of your proficiency, relative to key competencies. review: begin by reviewing the self-assessment form. you will see 9 key competencies that are highly relevant for advanced account management. rank: rank these competencies by how proficient you are, from your strongest to those that could use the most improvement. self-reflection                                      complete narration before continuing tap next &gt; to continue complete narration before continuing</slidetext>
-      <slidetext slideid="5uRBbjGIcOZ.61wENC5gASO" slidebank="false" type="slide">key leadership, technical and behavioral competencies networking preparation building trust navigating the account inspiring action creating customer communication pathways building consensus agility accountability what do each of these terms mean?  how do you build proficiency?  why is this competency important?                complete narration before continuing tap next &gt; to continue complete narration before continuing</slidetext>
-      <slidetext slideid="5uRBbjGIcOZ.5vDSkKYwpJQ" slidebank="false" type="slide">networking, preparation, building trust, navigating the account, and inspiring action                             inspiring action, to me, means ______________.     navigating the account, to me, means ___________. building trust,  to me, means ______________. preparation, to me, means __________. networking, to me, means ______________. complete narration before continuing tap next &gt; to continue complete narration before continuing       </slidetext>
-      <slidetext slideid="5uRBbjGIcOZ.64D0i2Vko5v" slidebank="false" type="slide">list 2 contacts with whom you have a relationship and describe how they have assisted you with a customer. specify tools, resources, or professional organizations you currently use to further develop your network.  list a customer with whom you would like to network more effectively. print print print print print print list a customer with whom you would like to network more effectively.  submit submit submit submit submit submit specify tools, resources, or professional organizations you currently use to further develop your network.   submit submit submit submit submit submit %text_count_2_1%/230 list 2 contacts with whom you have a relationship and describe how they have assisted you with a customer.   contact 1 contact 2 submit submit submit submit submit submit key leadership, technical and behavioral competencies networking preparation building trust navigating the account inspiring action creating customer communication pathways building consensus agility accountability    discussion/summary journal/share                  complete narration before continuing tap next &gt; to continue complete narration before continuing     networking, to me, means ______________. </slidetext>
-      <slidetext slideid="5uRBbjGIcOZ.5yGmY8js4x5" slidebank="false" type="slide">think back on a situation where you were not adequately prepared. what could you have done better? now, recall a situation where you were extremely prepared. what occurred and how did your preparation help you succeed? print print print print print print now, recall a situation where you were extremely prepared. what occurred and how did your preparation help you succeed?  submit submit submit submit submit submit think back on a situation where you were not adequately prepared. what could you have done better?  submit submit submit submit submit submit key leadership, technical and behavioral competencies networking preparation building trust navigating the account inspiring action creating customer communication pathways building consensus agility accountability    discussion/summary journal/share complete narration before continuing tap next &gt; to continue complete narration before continuing     preparation, to me, means ______________. </slidetext>
+      <slidetext slideid="6bOEf1Dc0f0.6GdosnlZzkq" slidebank="false" type="slide">       1 1  1  1 2 2  2  2 3 3  3  3 4 4  4  4 5 5  5  5 6 6  6  6 7 7  7  7 8 8  8  8 9 9  9  9               1 1  1  1 2 2  2  2 3 3  3  3 4 4  4  4 5 5  5  5 6 6  6  6 7 7  7  7 8 8  8  8 9 9  9  9               1 1  1  1 2 2  2  2 3 3  3  3 4 4  4  4 5 5  5  5 6 6  6  6 7 7  7  7 8 8  8  8 9 9  9  9               1 1  1  1 2 2  2  2 3 3  3  3 4 4  4  4 5 5  5  5 6 6  6  6 7 7  7  7 8 8  8  8 9 9  9  9               1 1  1  1 2 2  2  2 3 3  3  3 4 4  4  4 5 5  5  5 6 6  6  6 7 7  7  7 8 8  8  8 9 9  9  9               1 1  1  1 2 2  2  2 3 3  3  3 4 4  4  4 5 5  5  5 6 6  6  6 7 7  7  7 8 8  8  8 9 9  9  9               1 1  1  1 2 2  2  2 3 3  3  3 4 4  4  4 5 5  5  5 6 6  6  6 7 7  7  7 8 8  8  8 9 9  9  9               1 1  1  1 2 2  2  2 3 3  3  3 4 4  4  4 5 5  5  5 6 6  6  6 7 7  7  7 8 8  8  8 9 9  9  9                 1 1  1  1 2 2  2  2 3 3  3  3 4 4  4  4 5 5  5  5 6 6  6  6 7 7  7  7 8 8  8  8 9 9  9  9             self-assessment review these 9 key competencies. rank them in column 1, in terms of your proficiency from your strongest  to that needing the most development (1=strongest, 9=needs the most development). competency initial ranking networking preparation building trust navigating the account inspiring action creating customer communication pathways building consensus agility accountability --select-- --select-- --select-- --select-- --select-- --select-- --select-- --select-- --select-- %num_1% %num_2% %num_3% %num_4% %num_5% %num_6% %num_7% %num_8% %num_9%                                       </slidetext>
+      <slidetext slideid="6bOEf1Dc0f0.6ouVGjuf3X3" slidebank="false" type="slide">     key leadership, technical and behavioral competencies: networking networking preparation building trust navigating the account inspiring action creating customer communication pathways building consensus agility accountability   reflect                  complete all text entry fields before continuing tap next &gt; to continue complete all text entry fields before continuing  list 2 contacts with whom you have a relationship and describe how they have assisted you with a customer.   contact 1 contact 2 networking, to me, means:     definition    </slidetext>
+      <slidetext slideid="6bOEf1Dc0f0.6Oaym1zmJSw" slidebank="false" type="slide">     key leadership, technical and behavioral competencies: networking (cont.) networking preparation building trust navigating the account inspiring action creating customer communication pathways building consensus agility accountability   networking, to me, means:  specify tools, resources, or professional organizations you currently use to further develop your network.   list a customer with whom you would like to network more effectively.  reflect     definition complete all text entry fields before continuing tap next &gt; to continue complete all text entry fields before continuing    </slidetext>
+      <slidetext slideid="6bOEf1Dc0f0.6mcXzPy5rbC" slidebank="false" type="slide">     key leadership, technical and behavioral competencies: preparation networking preparation building trust navigating the account inspiring action creating customer communication pathways building consensus agility accountability       preparation, to me, means:  think back on a situation where you were not adequately prepared. what could you have done better?  definition reflect  now, recall a situation where you were extremely prepared. how did your preparation help you succeed?  complete all text entry fields before continuing tap next &gt; to continue complete all text entry fields before continuing   </slidetext>
+      <slidetext slideid="6bOEf1Dc0f0.6Q2rYrOa31Y" slidebank="false" type="slide">       1 1  1  1 2 2  2  2 3 3  3  3 4 4  4  4 5 5  5  5 6 6  6  6 7 7  7  7 8 8  8  8 9 9  9  9               1 1  1  1 2 2  2  2 3 3  3  3 4 4  4  4 5 5  5  5 6 6  6  6 7 7  7  7 8 8  8  8 9 9  9  9               1 1  1  1 2 2  2  2 3 3  3  3 4 4  4  4 5 5  5  5 6 6  6  6 7 7  7  7 8 8  8  8 9 9  9  9               1 1  1  1 2 2  2  2 3 3  3  3 4 4  4  4 5 5  5  5 6 6  6  6 7 7  7  7 8 8  8  8 9 9  9  9               1 1  1  1 2 2  2  2 3 3  3  3 4 4  4  4 5 5  5  5 6 6  6  6 7 7  7  7 8 8  8  8 9 9  9  9               1 1  1  1 2 2  2  2 3 3  3  3 4 4  4  4 5 5  5  5 6 6  6  6 7 7  7  7 8 8  8  8 9 9  9  9               1 1  1  1 2 2  2  2 3 3  3  3 4 4  4  4 5 5  5  5 6 6  6  6 7 7  7  7 8 8  8  8 9 9  9  9               1 1  1  1 2 2  2  2 3 3  3  3 4 4  4  4 5 5  5  5 6 6  6  6 7 7  7  7 8 8  8  8 9 9  9  9                 1 1  1  1 2 2  2  2 3 3  3  3 4 4  4  4 5 5  5  5 6 6  6  6 7 7  7  7 8 8  8  8 9 9  9  9             self-assessment after having reflected about each of these competencies, you may want to revise the order in which you originally ranked them. use the second column to do that now. competency initial ranking revised ranking networking preparation building trust navigating the account inspiring action creating customer communication pathways building consensus agility accountability --select-- --select-- --select-- --select-- --select-- --select-- --select-- --select-- --select-- %num_1% %num_2% %num_3% %num_4% %num_5% %num_6% %num_7% %num_8% %num_9%  %rev_1% %rev_2% %rev_3% %rev_4% %rev_5% %rev_6% %rev_7% %rev_8% %rev_9%                                       </slidetext>
     </search>
   </nav_data>
   <resource_data description="" />
   <transcript_data>
     <slidetranscripts>
-      <slidetranscript slideid="5uRBbjGIcOZ.6CJXT02KiPJ" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="0">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
-  &lt;Content&gt;
-    &lt;Block&gt;
-      &lt;Style /&gt;
-      &lt;Span Text="(No audio)"&gt;
-        &lt;Style FontSize="10.5" ForegroundColor="dk1,00" LinkColor="dk1,00" /&gt;
-      &lt;/Span&gt;
-    &lt;/Block&gt;
-  &lt;/Content&gt;
-&lt;/Document&gt;</slidetranscript>
-      <slidetranscript slideid="5uRBbjGIcOZ.5hk8PfxhHMZ" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="1">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
-  &lt;Content&gt;
-    &lt;Block&gt;
-      &lt;Style FlowDirection="LeftToRight" LeadingMargin="0" TrailingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Single" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
-        &lt;ListStyle ListType="None" ListTypeFormat="Parentheses" Start="0" Color="#000000,00" Size="100" BulletChar="•" BulletFont="Arial"&gt;
-          &lt;BulletPicture Size="0x0" /&gt;
-        &lt;/ListStyle&gt;
-      &lt;/Style&gt;
-      &lt;Span Text="Welcome to the Access Pointe Academy e-learning module: Advanced Account Management. Please take a moment to familiarize yourself with the navigation for this module."&gt;
-        &lt;Style FontFamily="Open Sans" FontSize="10.5" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
-      &lt;/Span&gt;
-    &lt;/Block&gt;
-  &lt;/Content&gt;
-&lt;/Document&gt;</slidetranscript>
-      <slidetranscript slideid="5uRBbjGIcOZ.665PScQpY1z" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="2">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
-  &lt;Content&gt;
-    &lt;Block&gt;
-      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
-        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
-          &lt;BulletPicture Size="0x0" /&gt;
-        &lt;/ListStyle&gt;
-      &lt;/Style&gt;
-      &lt;Span Text="TIMING&amp;#xA;"&gt;
-        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="True" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
-      &lt;/Span&gt;
-    &lt;/Block&gt;
-    &lt;Block&gt;
-      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
-        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
-          &lt;BulletPicture Size="0x0" /&gt;
-        &lt;/ListStyle&gt;
-      &lt;/Style&gt;
-      &lt;Span Text="10 minutes for slides 2-4&amp;#xA;"&gt;
-        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
-      &lt;/Span&gt;
-    &lt;/Block&gt;
-    &lt;Block&gt;
-      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0" /&gt;
-      &lt;Span Text="&amp;#xA;"&gt;
-        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="True" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
-      &lt;/Span&gt;
-    &lt;/Block&gt;
-    &lt;Block&gt;
-      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
-        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
-          &lt;BulletPicture Size="0x0" /&gt;
-        &lt;/ListStyle&gt;
-      &lt;/Style&gt;
-      &lt;Span Text="SAY&amp;#xA;"&gt;
-        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="True" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
-      &lt;/Span&gt;
-    &lt;/Block&gt;
-    &lt;Block&gt;
-      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
-        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
-          &lt;BulletPicture Size="0x0" /&gt;
-        &lt;/ListStyle&gt;
-      &lt;/Style&gt;
-      &lt;Span Text="Let’s take a look at the objectives for this workshop.&amp;#xA;"&gt;
-        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
-      &lt;/Span&gt;
-    &lt;/Block&gt;
-    &lt;Block&gt;
-      &lt;Style LeadingMargin="27" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
-        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" Start="0" Color="#000000,00" Size="100" BulletChar="•" BulletFont="Arial"&gt;
-          &lt;BulletPicture Size="0x0" /&gt;
-        &lt;/ListStyle&gt;
-      &lt;/Style&gt;
-      &lt;Span Text="Today, we are going to work on arriving at a common meaning of key competencies and aligning our understanding of what proficiency in these key competencies looks like.&amp;#xA;"&gt;
-        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
-      &lt;/Span&gt;
-    &lt;/Block&gt;
-    &lt;Block&gt;
-      &lt;Style LeadingMargin="27" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
-        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" Start="0" Color="#000000,00" Size="100" BulletChar="•" BulletFont="Arial"&gt;
-          &lt;BulletPicture Size="0x0" /&gt;
-        &lt;/ListStyle&gt;
-      &lt;/Style&gt;
-      &lt;Span Text="You’ll be asked to provide examples and reflect on your own experiences, as well as learn how others have applied these competencies in different situations. &amp;#xA;"&gt;
-        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
-      &lt;/Span&gt;
-    &lt;/Block&gt;
-    &lt;Block&gt;
-      &lt;Style LeadingMargin="27" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
-        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" Start="0" Color="#000000,00" Size="100" BulletChar="•" BulletFont="Arial"&gt;
-          &lt;BulletPicture Size="0x0" /&gt;
-        &lt;/ListStyle&gt;
-      &lt;/Style&gt;
-      &lt;Span Text="While working together and sharing our experiences, there will be opportunities for us to create new or enhanced strategies that we can use to drive positive outcomes with our accounts.&amp;#xA;"&gt;
-        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
-      &lt;/Span&gt;
-    &lt;/Block&gt;
-    &lt;Block&gt;
-      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0" /&gt;
-      &lt;Span Text="&amp;#xA;"&gt;
-        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="True" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
-      &lt;/Span&gt;
-    &lt;/Block&gt;
-    &lt;Block&gt;
-      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
-        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
-          &lt;BulletPicture Size="0x0" /&gt;
-        &lt;/ListStyle&gt;
-      &lt;/Style&gt;
-      &lt;Span Text="Now, let’s review what we’ll be doing over the next 90 minutes.&amp;#xA;"&gt;
-        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
-      &lt;/Span&gt;
-    &lt;/Block&gt;
-    &lt;Block&gt;
-      &lt;Style LeadingMargin="27" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
-        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" Start="0" Color="#000000,00" Size="100" BulletChar="•" BulletFont="Arial"&gt;
-          &lt;BulletPicture Size="0x0" /&gt;
-        &lt;/ListStyle&gt;
-      &lt;/Style&gt;
-      &lt;Span Text="In Part I, we will give you a brief introduction and ask you to assess your proficiency, given a set of competencies.&amp;#xA;"&gt;
-        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
-      &lt;/Span&gt;
-    &lt;/Block&gt;
-    &lt;Block&gt;
-      &lt;Style LeadingMargin="27" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
-        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" Start="0" Color="#000000,00" Size="100" BulletChar="•" BulletFont="Arial"&gt;
-          &lt;BulletPicture Size="0x0" /&gt;
-        &lt;/ListStyle&gt;
-      &lt;/Style&gt;
-      &lt;Span Text="In Part II, we will work together as a group to align on what proficiency in each of these competencies really means.&amp;#xA;"&gt;
-        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
-      &lt;/Span&gt;
-    &lt;/Block&gt;
-    &lt;Block&gt;
-      &lt;Style LeadingMargin="27" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
-        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" Start="0" Color="#000000,00" Size="100" BulletChar="•" BulletFont="Arial"&gt;
-          &lt;BulletPicture Size="0x0" /&gt;
-        &lt;/ListStyle&gt;
-      &lt;/Style&gt;
-      &lt;Span Text="Then, we’ll continue to Part III, where we will break into small working groups of 3-4 people. Here, we will explore a customer scenario, working together to adapt to an evolving situation. At the end of that exercise, teams will report out on their strategies.&amp;#xA;"&gt;
-        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
-      &lt;/Span&gt;
-    &lt;/Block&gt;
-    &lt;Block&gt;
-      &lt;Style LeadingMargin="27" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
-        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" Start="0" Color="#000000,00" Size="100" BulletChar="•" BulletFont="Arial"&gt;
-          &lt;BulletPicture Size="0x0" /&gt;
-        &lt;/ListStyle&gt;
-      &lt;/Style&gt;
-      &lt;Span Text="Lastly, in Part IV, we will wrap up the workshop by asking what your key takeaways are – what can you use from this workshop to enhance your account management execution, and what resources can you use to further develop your proficiency."&gt;
-        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
-      &lt;/Span&gt;
-    &lt;/Block&gt;
-  &lt;/Content&gt;
-&lt;/Document&gt;</slidetranscript>
-      <slidetranscript slideid="5uRBbjGIcOZ.6ee6Pacd5fE" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="3">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
-  &lt;Content&gt;
-    &lt;Block&gt;
-      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
-        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
-          &lt;BulletPicture Size="0x0" /&gt;
-        &lt;/ListStyle&gt;
-      &lt;/Style&gt;
-      &lt;Span Text="TIMING&amp;#xA;"&gt;
-        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="True" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
-      &lt;/Span&gt;
-    &lt;/Block&gt;
-    &lt;Block&gt;
-      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
-        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
-          &lt;BulletPicture Size="0x0" /&gt;
-        &lt;/ListStyle&gt;
-      &lt;/Style&gt;
-      &lt;Span Text="10 minutes for slides 2-4&amp;#xA;"&gt;
-        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
-      &lt;/Span&gt;
-    &lt;/Block&gt;
-    &lt;Block&gt;
-      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0" /&gt;
-      &lt;Span Text="&amp;#xA;"&gt;
-        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="True" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
-      &lt;/Span&gt;
-    &lt;/Block&gt;
-    &lt;Block&gt;
-      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
-        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
-          &lt;BulletPicture Size="0x0" /&gt;
-        &lt;/ListStyle&gt;
-      &lt;/Style&gt;
-      &lt;Span Text="DO&amp;#xA;"&gt;
-        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="True" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
-      &lt;/Span&gt;
-    &lt;/Block&gt;
-    &lt;Block&gt;
-      &lt;Style LeadingMargin="27" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
-        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" Start="0" Color="#000000,00" Size="100" BulletChar="•" BulletFont="Arial"&gt;
-          &lt;BulletPicture Size="0x0" /&gt;
-        &lt;/ListStyle&gt;
-      &lt;/Style&gt;
-      &lt;Span Text="Explain why are we meeting today, and how this is relevant to the participant. &amp;#xA;"&gt;
-        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="True" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
-      &lt;/Span&gt;
-    &lt;/Block&gt;
-    &lt;Block&gt;
-      &lt;Style LeadingMargin="27" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
-        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" Start="0" Color="#000000,00" Size="100" BulletChar="•" BulletFont="Arial"&gt;
-          &lt;BulletPicture Size="0x0" /&gt;
-        &lt;/ListStyle&gt;
-      &lt;/Style&gt;
-      &lt;Span Text="Share experiences that build empathy and credibility.&amp;#xA;"&gt;
-        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="True" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
-      &lt;/Span&gt;
-    &lt;/Block&gt;
-    &lt;Block&gt;
-      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0" /&gt;
-      &lt;Span Text="&amp;#xA;"&gt;
-        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="True" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
-      &lt;/Span&gt;
-    &lt;/Block&gt;
-    &lt;Block&gt;
-      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
-        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
-          &lt;BulletPicture Size="0x0" /&gt;
-        &lt;/ListStyle&gt;
-      &lt;/Style&gt;
-      &lt;Span Text="KNOW&amp;#xA;"&gt;
-        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="True" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
-      &lt;/Span&gt;
-    &lt;/Block&gt;
-    &lt;Block&gt;
-      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
-        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
-          &lt;BulletPicture Size="0x0" /&gt;
-        &lt;/ListStyle&gt;
-      &lt;/Style&gt;
-      &lt;Span Text="Workshop Leaders/SME(s) talk through some of their own real experiences to contextualize the workshop. Include examples of unforeseen challenges that had to be addressed, like a practice reorganization or acquisition, a prior authorization or claim denial, or a new stakeholder needing to be involved at the 11th hour, etc. "&gt;
-        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
-      &lt;/Span&gt;
-    &lt;/Block&gt;
-  &lt;/Content&gt;
-&lt;/Document&gt;</slidetranscript>
-      <slidetranscript slideid="5uRBbjGIcOZ.6fm90BOzVVK" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="4">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
-  &lt;Content&gt;
-    &lt;Block&gt;
-      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
-        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
-          &lt;BulletPicture Size="0x0" /&gt;
-        &lt;/ListStyle&gt;
-      &lt;/Style&gt;
-      &lt;Span Text="TIMING&amp;#xA;"&gt;
-        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="True" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
-      &lt;/Span&gt;
-    &lt;/Block&gt;
-    &lt;Block&gt;
-      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
-        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
-          &lt;BulletPicture Size="0x0" /&gt;
-        &lt;/ListStyle&gt;
-      &lt;/Style&gt;
-      &lt;Span Text="10 minutes for slides 2-4&amp;#xA;"&gt;
-        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
-      &lt;/Span&gt;
-    &lt;/Block&gt;
-    &lt;Block&gt;
-      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0" /&gt;
-      &lt;Span Text="&amp;#xA;"&gt;
-        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="True" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
-      &lt;/Span&gt;
-    &lt;/Block&gt;
-    &lt;Block&gt;
-      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
-        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
-          &lt;BulletPicture Size="0x0" /&gt;
-        &lt;/ListStyle&gt;
-      &lt;/Style&gt;
-      &lt;Span Text="DO [Journal]&amp;#xA;"&gt;
-        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="True" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
-      &lt;/Span&gt;
-    &lt;/Block&gt;
-    &lt;Block&gt;
-      &lt;Style LeadingMargin="27" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
-        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" Start="0" Color="#000000,00" Size="100" BulletChar="•" BulletFont="Arial"&gt;
-          &lt;BulletPicture Size="0x0" /&gt;
-        &lt;/ListStyle&gt;
-      &lt;/Style&gt;
-      &lt;Span Text="Hand out Workshop Journal.&amp;#xA;"&gt;
-        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="True" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
-      &lt;/Span&gt;
-    &lt;/Block&gt;
-    &lt;Block&gt;
-      &lt;Style LeadingMargin="27" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
-        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" Start="0" Color="#000000,00" Size="100" BulletChar="•" BulletFont="Arial"&gt;
-          &lt;BulletPicture Size="0x0" /&gt;
-        &lt;/ListStyle&gt;
-      &lt;/Style&gt;
-      &lt;Span Text="Turn to Page 3 of Workshop Journal.&amp;#xA;"&gt;
-        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="True" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
-      &lt;/Span&gt;
-    &lt;/Block&gt;
-    &lt;Block&gt;
-      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0" /&gt;
-      &lt;Span Text="&amp;#xA;"&gt;
-        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="True" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
-      &lt;/Span&gt;
-    &lt;/Block&gt;
-    &lt;Block&gt;
-      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
-        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
-          &lt;BulletPicture Size="0x0" /&gt;
-        &lt;/ListStyle&gt;
-      &lt;/Style&gt;
-      &lt;Span Text="SAY&amp;#xA;"&gt;
-        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="True" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
-      &lt;/Span&gt;
-    &lt;/Block&gt;
-    &lt;Block&gt;
-      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
-        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
-          &lt;BulletPicture Size="0x0" /&gt;
-        &lt;/ListStyle&gt;
-      &lt;/Style&gt;
-      &lt;Span Text="Review these 9 key competencies. Take a few moments to rank them in terms of your proficiency from your strongest to the one that needs the most development, beginning with 1 as your strongest, and continuing to 9 as the one that needs the most development. &amp;#xA;"&gt;
-        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
-      &lt;/Span&gt;
-    &lt;/Block&gt;
-    &lt;Block&gt;
-      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0" /&gt;
-      &lt;Span Text=""&gt;
-        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
-      &lt;/Span&gt;
-    &lt;/Block&gt;
-  &lt;/Content&gt;
-&lt;/Document&gt;</slidetranscript>
-      <slidetranscript slideid="5uRBbjGIcOZ.61wENC5gASO" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="5">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
-  &lt;Content&gt;
-    &lt;Block&gt;
-      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
-        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
-          &lt;BulletPicture Size="0x0" /&gt;
-        &lt;/ListStyle&gt;
-      &lt;/Style&gt;
-      &lt;Span Text="TIMING&amp;#xD;"&gt;
-        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="True" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
-      &lt;/Span&gt;
-      &lt;Span Text="40 minutes for slides 5-17&amp;#xA;"&gt;
-        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
-      &lt;/Span&gt;
-    &lt;/Block&gt;
-    &lt;Block&gt;
-      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0" /&gt;
-      &lt;Span Text="&amp;#xA;"&gt;
-        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="True" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
-      &lt;/Span&gt;
-    &lt;/Block&gt;
-    &lt;Block&gt;
-      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
-        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
-          &lt;BulletPicture Size="0x0" /&gt;
-        &lt;/ListStyle&gt;
-      &lt;/Style&gt;
-      &lt;Span Text="DO&amp;#xA;"&gt;
-        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="True" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
-      &lt;/Span&gt;
-    &lt;/Block&gt;
-    &lt;Block&gt;
-      &lt;Style LeadingMargin="27" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
-        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" Start="0" Color="#000000,00" Size="100" BulletChar="•" BulletFont="Arial"&gt;
-          &lt;BulletPicture Size="0x0" /&gt;
-        &lt;/ListStyle&gt;
-      &lt;/Style&gt;
-      &lt;Span Text="Arrange 9 pre-titled flip chart pages and markers around the room. &amp;#xA;"&gt;
-        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="True" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
-      &lt;/Span&gt;
-    &lt;/Block&gt;
-    &lt;Block&gt;
-      &lt;Style LeadingMargin="27" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
-        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" Start="0" Color="#000000,00" Size="100" BulletChar="•" BulletFont="Arial"&gt;
-          &lt;BulletPicture Size="0x0" /&gt;
-        &lt;/ListStyle&gt;
-      &lt;/Style&gt;
-      &lt;Span Text="Ensure audio system is set up for playing customer perspective clips.&amp;#xA;"&gt;
-        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="True" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
-      &lt;/Span&gt;
-    &lt;/Block&gt;
-    &lt;Block&gt;
-      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0" /&gt;
-      &lt;Span Text="&amp;#xA;"&gt;
-        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="True" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
-      &lt;/Span&gt;
-    &lt;/Block&gt;
-    &lt;Block&gt;
-      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
-        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
-          &lt;BulletPicture Size="0x0" /&gt;
-        &lt;/ListStyle&gt;
-      &lt;/Style&gt;
-      &lt;Span Text="SAY&amp;#xA;"&gt;
-        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="True" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
-      &lt;/Span&gt;
-    &lt;/Block&gt;
-    &lt;Block&gt;
-      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
-        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
-          &lt;BulletPicture Size="0x0" /&gt;
-        &lt;/ListStyle&gt;
-      &lt;/Style&gt;
-      &lt;Span Text="What do each of these terms mean? How do we build proficiency? Why is each competency important? We are going to spend a few minutes defining each of these competencies, hearing customer perspectives, and developing examples of how or where we’ve applied these competencies in our jobs. Please use the Workshop Journal to take notes and to complete activities as we move along.&amp;#xA;"&gt;
-        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
-      &lt;/Span&gt;
-    &lt;/Block&gt;
-    &lt;Block&gt;
-      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0" /&gt;
-      &lt;Span Text="&amp;#xA;"&gt;
-        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
-      &lt;/Span&gt;
-    &lt;/Block&gt;
-    &lt;Block&gt;
-      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
-        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
-          &lt;BulletPicture Size="0x0" /&gt;
-        &lt;/ListStyle&gt;
-      &lt;/Style&gt;
-      &lt;Span Text="KNOW&amp;#xA;"&gt;
-        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="True" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
-      &lt;/Span&gt;
-    &lt;/Block&gt;
-    &lt;Block&gt;
-      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
-        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
-          &lt;BulletPicture Size="0x0" /&gt;
-        &lt;/ListStyle&gt;
-      &lt;/Style&gt;
-      &lt;Span Text="At the end of this exercise, participants will be asked to re-rank their proficiency in the 9 competencies, and to share their strongest competency with the group.&amp;#xA;"&gt;
-        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
-      &lt;/Span&gt;
-    &lt;/Block&gt;
-    &lt;Block&gt;
-      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0" /&gt;
-      &lt;Span Text=""&gt;
-        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
-      &lt;/Span&gt;
-    &lt;/Block&gt;
-  &lt;/Content&gt;
-&lt;/Document&gt;</slidetranscript>
-      <slidetranscript slideid="5uRBbjGIcOZ.5vDSkKYwpJQ" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="6">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
-  &lt;Content&gt;
-    &lt;Block&gt;
-      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
-        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
-          &lt;BulletPicture Size="0x0" /&gt;
-        &lt;/ListStyle&gt;
-      &lt;/Style&gt;
-      &lt;Span Text="TIMING&amp;#xA;"&gt;
-        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="True" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
-      &lt;/Span&gt;
-    &lt;/Block&gt;
-    &lt;Block&gt;
-      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
-        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
-          &lt;BulletPicture Size="0x0" /&gt;
-        &lt;/ListStyle&gt;
-      &lt;/Style&gt;
-      &lt;Span Text="15 minutes for slides 6-11&amp;#xA;"&gt;
-        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
-      &lt;/Span&gt;
-    &lt;/Block&gt;
-    &lt;Block&gt;
-      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0" /&gt;
-      &lt;Span Text="&amp;#xA;"&gt;
-        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
-      &lt;/Span&gt;
-    &lt;/Block&gt;
-    &lt;Block&gt;
-      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
-        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
-          &lt;BulletPicture Size="0x0" /&gt;
-        &lt;/ListStyle&gt;
-      &lt;/Style&gt;
-      &lt;Span Text="SAY&amp;#xA;"&gt;
-        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="True" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
-      &lt;/Span&gt;
-    &lt;/Block&gt;
-    &lt;Block&gt;
-      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
-        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
-          &lt;BulletPicture Size="0x0" /&gt;
-        &lt;/ListStyle&gt;
-      &lt;/Style&gt;
-      &lt;Span Text="For these 5 competencies, write down a sentence or phrase on the appropriate flip chart page that embodies what comes to mind when you think about each of these terms. You’ll have 5 minutes to write your thoughts. Review other’s responses, and if your idea is the same or very similar, place a checkmark next to theirs instead of repeating. When you are done, let’s discuss what you wrote, and what you think captures the meaning of this competency. Additionally, throughout the workshop, you can use your journal to reflect on your experiences with each competency and to capture best practices from your peers. &amp;#xA;"&gt;
-        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
-      &lt;/Span&gt;
-    &lt;/Block&gt;
-    &lt;Block&gt;
-      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0" /&gt;
-      &lt;Span Text="&amp;#xA;"&gt;
-        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
-      &lt;/Span&gt;
-    &lt;/Block&gt;
-    &lt;Block&gt;
-      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
-        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
-          &lt;BulletPicture Size="0x0" /&gt;
-        &lt;/ListStyle&gt;
-      &lt;/Style&gt;
-      &lt;Span Text="DO&amp;#xA;"&gt;
-        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="True" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
-      &lt;/Span&gt;
-    &lt;/Block&gt;
-    &lt;Block&gt;
-      &lt;Style LeadingMargin="27" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
-        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" Start="0" Color="#000000,00" Size="100" BulletChar="•" BulletFont="Arial"&gt;
-          &lt;BulletPicture Size="0x0" /&gt;
-        &lt;/ListStyle&gt;
-      &lt;/Style&gt;
-      &lt;Span Text="Ensure flip chart markers are available at each competency and tell participants to begin. &amp;#xA;"&gt;
-        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="True" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
-      &lt;/Span&gt;
-    &lt;/Block&gt;
-    &lt;Block&gt;
-      &lt;Style LeadingMargin="27" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
-        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" Start="0" Color="#000000,00" Size="100" BulletChar="•" BulletFont="Arial"&gt;
-          &lt;BulletPicture Size="0x0" /&gt;
-        &lt;/ListStyle&gt;
-      &lt;/Style&gt;
-      &lt;Span Text="Circulate between the 5 sheets and assist with consolidating similar responses. &amp;#xA;"&gt;
-        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="True" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
-      &lt;/Span&gt;
-    &lt;/Block&gt;
-    &lt;Block&gt;
-      &lt;Style LeadingMargin="27" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
-        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" Start="0" Color="#000000,00" Size="100" BulletChar="•" BulletFont="Arial"&gt;
-          &lt;BulletPicture Size="0x0" /&gt;
-        &lt;/ListStyle&gt;
-      &lt;/Style&gt;
-      &lt;Span Text="Prepare to summarize the findings beginning on the next slide."&gt;
-        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="True" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
-      &lt;/Span&gt;
-    &lt;/Block&gt;
-  &lt;/Content&gt;
-&lt;/Document&gt;</slidetranscript>
-      <slidetranscript slideid="5uRBbjGIcOZ.64D0i2Vko5v" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="7">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+      <slidetranscript slideid="6bOEf1Dc0f0.6ouVGjuf3X3" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="0">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
   &lt;Content&gt;
     &lt;Block&gt;
       &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
@@ -2380,7 +1755,184 @@
     &lt;/Block&gt;
   &lt;/Content&gt;
 &lt;/Document&gt;</slidetranscript>
-      <slidetranscript slideid="5uRBbjGIcOZ.5yGmY8js4x5" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="7">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+      <slidetranscript slideid="6bOEf1Dc0f0.6Oaym1zmJSw" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="0">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Content&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="TIMING&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="True" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="15 minutes for slides 6-11&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0" /&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="KNOW&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="True" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="The format for 9 individual competency slides is the same- (slides 7, 8, 9, 10, 11, 13, 14, 15, 16).&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0" /&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="True" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="DO [Discussion/Summary/Journal]&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="True" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="27" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" Start="0" Color="#000000,00" Size="100" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Turn to Page 4 of the Workshop Journal (top).&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="True" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="27" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" Start="0" Color="#000000,00" Size="100" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Instruct participants to capture thoughts from the upcoming discussion in their Workshop Journal.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="True" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="27" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" Start="0" Color="#000000,00" Size="100" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Summarize essential findings from flip chart pages.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="True" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="27" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" Start="0" Color="#000000,00" Size="100" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Play voice of the customer by clicking the speaker icon.&amp;#xD;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="True" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+      &lt;Span Text="[Transcript (47 seconds): &amp;#xD;One of my standout relationships I met about 20 years ago. We worked together on an interdisciplinary team, through our GPO. So, there was wholesaler representation, health system representation, pharma representation, GPO and a couple other disciplines. (I) never knew him before. He’s still in my life and will contact me about other things that aren’t even related but are related maybe to philanthropy or giving back to the community. And how do you go from a relationship like that to really having someone in your life who is a colleague and a trusted friend.]&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0" /&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="True" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="DO [Journal/Share]&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="True" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="27" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" Start="0" Color="#000000,00" Size="100" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Instruct participants to take notes and complete the Journal entries throughout the workshop.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="True" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="27" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="Bullet" ListTypeFormat="Plain" Start="0" Color="#000000,00" Size="100" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Ask participants to volunteer to share a Workshop Journal entry.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="True" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0" /&gt;
+      &lt;Span Text="&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="True" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="SAY&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="True" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;
+        &lt;ListStyle ListType="None" ListTypeFormat="Plain" Start="0" Color="#000000,00" BulletChar="•" BulletFont="Arial"&gt;
+          &lt;BulletPicture Size="0x0" /&gt;
+        &lt;/ListStyle&gt;
+      &lt;/Style&gt;
+      &lt;Span Text="Please take notes in your Workshop Journal to capture specific examples of each competency in action; taking special care to capture anything that you would find useful incorporating into your account management strategy.&amp;#xA;"&gt;
+        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="False" FontIsItalic="True" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+    &lt;Block&gt;
+      &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0" /&gt;
+      &lt;Span Text=""&gt;
+        &lt;Style FontFamily="+minor" FontSize="10" FontIsBold="False" FontIsItalic="False" FontIsUnderline="False" FontIsStrikeout="False" ForegroundColor="dk1,00" Elevation="Normal" DisplayCase="AsIs" LinkColor="dk1,00" /&gt;
+      &lt;/Span&gt;
+    &lt;/Block&gt;
+  &lt;/Content&gt;
+&lt;/Document&gt;</slidetranscript>
+      <slidetranscript slideid="6bOEf1Dc0f0.6mcXzPy5rbC" slidebank="false" type="slide" noteswf="" notespng="" pathlib="Lib" pathindex="0">&lt;Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
   &lt;Content&gt;
     &lt;Block&gt;
       &lt;Style LeadingMargin="0" FirstLineMargin="0" Justification="Left" ListLevel="1" LineSpacingRule="Multiple" LineSpacing="20" SpacingBefore="0" SpacingAfter="0"&gt;

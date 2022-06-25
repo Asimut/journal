@@ -2,36 +2,46 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "66nkYCqeeaF":
+      case "6WvSplHoNiE":
         Script1();
         break;
-      case "62ZIMaiuS3p":
+      case "5ZGAHmOBIdH":
         Script2();
+        break;
+      case "5ruYOZioWs3":
+        Script3();
+        break;
+      case "5ZsyVjeCFVl":
+        Script4();
+        break;
+      case "6E16jsirgm1":
+        Script5();
         break;
   }
 }
 
 function Script1()
 {
-  var player = GetPlayer();
-
-var area = document.querySelector('textarea');
-
-area.addEventListener('input', restrictNumber);
-
-function restrictNumber (e) {  
-  var newValue = this.value.substr(0, 230).trim();
-  //console.log(newValue);
-  this.value = newValue;
-  
-  var qty = this.value.length;
-  
-  player.SetVar("text_count_2_1",qty);
-}
+  window.frames[0].frameElement.contentWindow.CreateBookView();
 }
 
 function Script2()
 {
-  window.frames[0].frameElement.contentWindow.CreateBook();
+  window.frames[0].frameElement.contentWindow.CreateBookView();
+}
+
+function Script3()
+{
+  window.frames[0].frameElement.contentWindow.CreateBookView();
+}
+
+function Script4()
+{
+  window.frames[0].frameElement.contentWindow.CreateBookView();
+}
+
+function Script5()
+{
+  window.frames[0].frameElement.contentWindow.CreateBookView();
 }
 
